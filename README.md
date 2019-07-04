@@ -4,7 +4,7 @@ This repository contains the code and data to train a neural network to decide i
 It was developed for <a href="https://pitanq.com">Raspberry Pi powered robot PiTanq</a> but can be applied to any similar vehicle.
 
 ## Data
-The neural network is a multi-label classifier trained with 3 classes of picture: forward, left and right.
+The neural network is a multi-label classifier trained with 3 classes of pictures: forward, left and right.
 The data was received by road recognition on photos, then the photos were reduced and their centers 64x64 were taken as input for this network.
 A zip-archive with the initial pics is in this repo.
 
@@ -30,7 +30,7 @@ There is no requirement to have Keras on Raspberry but TF itself contains an ada
 
 ### Code
 
-There was used a simplied architecture for multi-label classification.
+There was used a simpliest architecture for multi-label classification.
 Turned out it works pretty good.
 
 ```
