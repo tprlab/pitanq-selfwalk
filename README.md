@@ -127,7 +127,7 @@ The converted model is in this repo: model/ktf_model.pb
 Then I converted TF model into OpenVino format to run with Intel NCS.
 
 ```
-python mo_tf.py --input_model "model\ktf_model.pb" --log_level=DEBUG -b1 --data_type FP16
+python mo_tf.py --input_model "model/ktf_model.pb" --log_level=DEBUG -b1 --data_type FP16
 ````
 
-The OpenVino model consists of 2 file: model/ktf_model.xml and model/ktf_model.bin.
+The OpenVino model consists of 2 files: model/ktf_model.xml and model/ktf_model.bin.
